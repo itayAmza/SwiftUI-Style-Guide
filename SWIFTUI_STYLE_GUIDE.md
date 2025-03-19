@@ -108,7 +108,7 @@ To maintain consistency across views, follow these guidelines:
 * **2.1** The file organization and property order should remain the same as described in [Section 1](#1-file-organization), with the exception of property wrapper [Property Wrappers](#3-property-wrappers).
 * **2.2** If the call site variable order is important, use initialization to control it, and do not change the properties order.
 * **2.3** Initialization parameters variables should be private.
-* **2.4** The file organization's mark order should remain the same as in [section 1.3](#13-file-organization) of this guide. With the following additions:
+* **2.4** The file organization's mark order should remain the same as in section 1.3 of this guide. With the following additions:
 
   * `// MARK: Views` to group all views and content builders, positioned immediately after the Lifecycle mark.
   * `// MARK: Previews` at the bottom of the file, if needed.
@@ -157,7 +157,7 @@ In order to maintain readability please keep the following order when declaring 
 * **4.2.3** Use the Model suffix to mark view models.
 * **4.2.4** Use the [task](https://developer.apple.com/documentation/swiftui/view/task%28priority:_:%29) modifier for view model initialization; avoid doing so in view initializers.
 
-### 4.2 Views
+### 4.3 Views
 
 * **4.3.1** Always use explicit initializers for Views to ensure clarity.
 * **4.3.2** Implicit returns are allowed when creating views (`@ViewBulider` or any function or computed var that returns `some -> View`).
